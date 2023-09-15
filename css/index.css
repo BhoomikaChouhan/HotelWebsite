@@ -1,0 +1,196 @@
+
+
+* {
+  /* border: 1px solid black; */
+  box-sizing: border-box;
+}
+
+
+
+/*  */
+#logo {
+  text-align: center;
+}
+#logo a {
+  color: rgba(255, 255, 255, 0.61);
+  font-family: cursive;
+  font-size: large;
+  text-decoration: none;
+}
+#bgi {
+  background-image: url(../image/A\ Hotel\ webpage.png);
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#bgc {
+  background-color: rgba(0, 0, 0, 0.495);
+  width: 100%;
+  height: 100%;
+}
+#main {
+  text-align: center;
+  /* padding-top: 100px; */
+
+  width: 100%;
+  letter-spacing: 1px;
+
+  font-size: 70%;
+  color: rgb(247, 248, 250);
+}
+#main h2 {
+  /* font-size: xx-large; */
+  /* font-size: 80px; */
+  letter-spacing: 1px;
+}
+#main a {
+  text-decoration: none;
+  color: rgba(247, 248, 250, 0.808);
+  font-family: cursive;
+  /* font-weight: bold; */
+  /* font-size: 70%; */
+}
+
+#cout,
+#cin {
+  /* border-radius: 7.5px; */
+  width: 100%;
+  height: 42px;
+  font-family: sans-serif;
+  background-color: transparent;
+  color: rgba(255, 253, 253, 0.531);
+  font-weight: bold;
+  border-top-color: #ffffff00;
+  border-right-color: #ffffff00;
+  border-left-color: #ffffff00;
+  border-bottom: 1px solid #fff !important;
+}
+
+.btn-dark:hover{
+  background-color: #fff;
+  color: #0a0101;
+}
+#select:hover{
+  background-color: #0a0101;
+}
+
+
+#select {
+  border-radius:0px;
+  width: 100%;
+  border-color: rgba(128, 135, 140, 0.429);
+  /* font-family: sans-serif; */
+  background-color:rgba(245, 245, 245, 0);
+  /* color: rgba(255, 253, 253, 0.531); */
+  color: rgb(226, 226, 226);
+  /* font-weight: bold; */
+  border: 1px solid #ffffff71 !important;
+}
+.btn-select{
+  background-color: #0a0101;
+}
+
+/* Target the custom-select class and style the arrow */
+.custom-select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-image: url("data:image/svg+xml;charset=utf-8,<svg fill='rgba(255, 255, 255, 0.505)' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M12 17.414 3.293 8.707l1.414-1.414L12 14.586l7.293-7.293 1.414 1.414L12 17.414z'/></svg>");
+  background-repeat: no-repeat;
+  background-position: 95%;
+  padding-right:35px;
+   /* Adjust as needed */
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.505); 
+  /* Change the text color */
+  background-size: 21px;
+}
+
+label {
+  /* color: rgb(154, 148, 148);
+  font-family: sans-serif;
+  color: #fff; */
+  font-family: sans-serif;
+  background-color: transparent;
+  color: rgba(255, 253, 253, 0.7);
+  font-weight: bold;
+}
+
+#form {
+  background-color:transparent;
+  border-color: transparent;
+  height: 100%;
+}
+
+#check-sec {
+  margin-top: 11%;
+  height: 62vh;
+}
+
+#btn {
+  height: 1.01cm;
+  width: 100%;
+  letter-spacing: 1px;
+border-radius: 20px;
+  color: rgba(240, 248, 255, 0.678);
+  font-family: system-ui;
+  /* font-weight: bold; */
+  background-color: #0a0101;
+}
+#btn:hover{
+  background-color: #fff;
+  color: #0a0101;
+}
+/* MEDIA QUERIES */
+
+/* For Desktop View */
+@media screen and (min-width: 1024px) {
+  #check-sec {
+    margin-top: 11%;
+    height: 20vh;
+  }
+}
+
+/* For Tablet View */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  #navbar {
+    background-color: rgba(0, 0, 0, 0.438);
+  }
+  #check-sec {
+    margin-top: 11%;
+    height: 30vh;
+  }
+}
+/* 
+.menu{
+  display: grid;
+  justify-content: center;
+} */
+
+/* For Mobile Portrait View */
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
+  #navbar {
+    background-color: rgba(3, 4, 14, 0.504);
+  }
+}
+
+/* For Mobile Landscape View */
+@media screen and (max-device-width: 640px) and (orientation: landscape) {
+}
+
+/* For Mobile Phones Portrait or Landscape View */
+@media screen and (max-device-width: 640px) {
+}
+
+/* For iPhone 4 Portrait or Landscape View */
+@media screen and (min-device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* For iPhone 5 Portrait or Landscape View */
+@media (device-height: 568px) and (device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* For iPhone 6 and 6 plus Portrait or Landscape View */
+@media (min-device-height: 667px) and (min-device-width: 375px) and (-webkit-min-device-pixel-ratio: 3) {
+}
